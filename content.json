@@ -1,0 +1,1353 @@
+{
+  "site": {
+    "title": "space-junk",
+    "author": "Muriel Colagrande",
+    "email": "",
+    "description": "Portfolio de Muriel Colagrande : design d'interaction, objets interactifs, musique."
+  },
+  "tags": {
+    "branding": "branding",
+    "music": "music",
+    "personal-work": "personal work",
+    "ux-ui": "UX-UI"
+  },
+  "about": {
+    "title": "Muriel Colagrande",
+    "html": "<p><em>Je m'intéresse aux êtres humains, à l'art, à l'imagination et à la création, à l'innovation dans l'éducation et les soins, à la technologie et à la programmation...<br>Idéalement, j'aime tout cela mixé ensemble !</em><br></p><p>Muriel Colagrande est formée aux arts appliqués à La Martinière, à Lyon. Elle se passionne pour le design d’interaction et apprend à programmer. Pendant plusieurs années elle crée des sites internet et designe des applications mobiles, puis se consacre ensuite à la direction artistique de projets innovants au sein de plusieurs startup. La découverte de l’électronique programmable en 2016 lui ouvre un nouveau champ, avec l’envie de créer des expériences interactives tangibles, à partager au-delà de l’écran.<br></p><p>Le travail de Muriel questionne les liens entre êtres humains et nouvelles technologies. Elle aime créer la surprise avec des dispositifs qui semblent au premier abord anodins : un jeu, un jouet, un meuble. Sous l’action de l’utilisateur ou du visiteur, le dispositif révèle ses intentions cachées. L’installation <a href=\"/jumeau-numerique/\"><em>Jumeau Numérique</em></a> nous interpelle sur nos rapports aux réseaux sociaux grâce à la mise en scène d’un terrible double, symbolisant la hantise de nos archives numérique.<a href=\"/alloalbert/\"><em> Allô, Albert ?</em></a>, questionne les intelligences artificielles, le rapport entre ce qui est exécuté par la machine et par l’artisan/l'artiste, associant les process de modélisation et d’impression 3D/PLA avec le travail de la terre et des émaux.</p><p>Muriel pense que les nouvelles technologies doivent servir à valoriser l’humain dans ce qui fait ses forces, et pose la sensorialité et l’intuition comme des bases solides pour cette ère à venir, partagée avec les intelligences artificielles.</p><p>_ _</p><p>Muriel fonde <a href=\"http://www.ovaom.com\" target=\"_blank\" rel=\"noopener\"><em>Ovaom</em></a> en décembre 2017. Le premier dispositif qui y est développé, la Jungle Box, est un kit d'objets électronique qui permet aux enfants de développer leur écoute, dès leur plus jeune âge, par le sens du toucher. Par l’écoute, la manipulation et la production de matière musicale, l’attention est sollicitée, faisant ainsi de ces instruments des outils de médiation sensorielle et de psychomotricité. Les nouvelles technologies permettent ainsi la pratique autonome et intensive de la musique, ouvrant la voie à de de nouvelles perspectives pour son utilisation dans l’apprentissage des langues ou de la lecture. Peut-être que la musique pourrait acquérir une place fondamentale au sein de l’enseignement à l'école ?<br></p>"
+  },
+  "projects": [
+    {
+      "slug": "ovaom-sound-explorer",
+      "title": "OVAOM - Sound Explorer",
+      "archived": false,
+      "description": "<p>Avec les membres d'OVAOM, nous avons développé le Sound Explorer, une console de jeu AUDIO créative et éducative.</p><p>Des manettes de jeux connectées à une collection de jeux musicaux pour explorer les sons, par le geste.<br>Elle permet d'entraîner les compétences musicales et cognitives, et développe la motricité, le langage, la mémoire et la créativité.<br>Elle a été adoptée par plus de 250 professionnels de l’éducation, reçu plusieurs prix dans les domaines de l'innovation, de pédagogie ou du handicap.<br><br>Découvrez-là en détail sur le site dédié : <a target=\"_blank\" href=\"http://www.ovaom.com\">www.ovaom.com<br></a>Ou sur le compte Instagram <a target=\"_blank\" href=\"https://www.instagram.com/ovaomproject/\">@ovaomproject</a></p>",
+      "date": "2018 - 2024",
+      "client": "OVAOM",
+      "role": "CEO - UX-UI Design - DA : Muriel Colagrande. Design : Wandrille Heusse. Moteur audio : Simon Hill. Electronique : Simon Juif",
+      "url": "http://www.ovaom.com",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/ovaom-sound-explorer/01.webp",
+          "w": 1080,
+          "h": 1080
+        },
+        {
+          "type": "vimeo",
+          "id": "803432981"
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom-sound-explorer/02.webp",
+          "w": 1600,
+          "h": 1687
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom-sound-explorer/03.webp",
+          "w": 1179,
+          "h": 1400
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom-sound-explorer/04.webp",
+          "w": 1179,
+          "h": 1400
+        }
+      ],
+      "tags": [
+        "branding",
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/ovaom-sound-explorer/thumb.webp"
+    },
+    {
+      "slug": "bribes",
+      "title": "Bribes",
+      "archived": false,
+      "description": "<p>Bribes est une interface dédiée à l’expérience muséale post-visite.</p>\n\n<p>Cette interface pour tablette tactile permet l’enregistrement et l’édition de capsules sonores, et leur organisation dans le temps, de manière simple et intuitive. Les manettes connectées permettent de lancer des extraits sonores, les déformer et naviguer dans la narration.<br><br>L’activité a été proposée sous forme d’ateliers à destination des enfants et leurs parents, pour faire suite à la visite d’une exposition.<br>Les visiteurs pouvaient exporter une version de leur création au format audio pour un téléchargement par mail.<br><br>L'installation Bribes a été créée avec le soutien du Ministère de la Culture et de la Gaité Lyrique.<br></p>",
+      "date": "2022",
+      "client": "OVAOM - Ministère de la Culture",
+      "role": "Designer",
+      "url": "https://vimeo.com/792781442",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/bribes/01.webp",
+          "w": 1434,
+          "h": 1370
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/02.webp",
+          "w": 1600,
+          "h": 902
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/03.webp",
+          "w": 810,
+          "h": 1080
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/04.webp",
+          "w": 1542,
+          "h": 1158
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/05.webp",
+          "w": 1600,
+          "h": 1057
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/06.webp",
+          "w": 1600,
+          "h": 740
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/07.webp",
+          "w": 1600,
+          "h": 806
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/08.webp",
+          "w": 1600,
+          "h": 802
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/09.webp",
+          "w": 1600,
+          "h": 866
+        },
+        {
+          "type": "image",
+          "src": "img/bribes/10.webp",
+          "w": 1600,
+          "h": 901
+        },
+        {
+          "type": "vimeo",
+          "id": "792781442"
+        }
+      ],
+      "tags": [
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/bribes/thumb.webp"
+    },
+    {
+      "slug": "philharmonie-des-enfants",
+      "title": "Philharmonie des enfants",
+      "archived": false,
+      "description": "<p>Prototypage de 15 installations pédagogiques pour le futur musée de la Philharmonie, avec 10 autres makers. Les installations avaient pour objectif de faire découvrir le son comme phénomène physique et la composition musicale, aux enfants. Elles ont été testée lors d’une exposition éphémère visitée par 1300 enfants de 4 à 10 ans. Ces installations ont servi de base à Constance Guisset, qui a conçu les installations définitives de la Philharmonie des Enfants.<br></p>\n\n<p>Plus d'infos sur le chantier de prototypage sur le site de la <a href=\"https://philharmoniedeparis.fr/fr/magazine/actus/une-petite-fabrique-lecoute-des-enfants\" title=\"Link: https://philharmoniedeparis.fr/fr/magazine/actus/une-petite-fabrique-lecoute-des-enfants\">Philharmonie de Paris</a><br></p>",
+      "date": "2019",
+      "client": "Philharmonie de Paris",
+      "role": "Designer, Maker",
+      "url": "https://philharmoniedeparis.fr/fr/magazine/actus/une-petite-fabrique-lecoute-des-enfants",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/01.webp",
+          "w": 1238,
+          "h": 1238
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/02.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/03.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/04.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/05.webp",
+          "w": 1479,
+          "h": 1080
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/06.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/07.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/philharmonie-des-enfants/08.webp",
+          "w": 1600,
+          "h": 1067
+        }
+      ],
+      "tags": [
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/philharmonie-des-enfants/thumb.webp"
+    },
+    {
+      "slug": "ovaom",
+      "title": "OVAOM - Jungle Box",
+      "archived": false,
+      "description": "<p><em>Une exploration tactile du son</em></p><p>Ovaom crée des <strong>interfaces musicales sensibles</strong>, intuitives et stimulantes pour explorer le son.<br>Ces objets électroniques multi-sensoriels permettent de jouer avec la matière sonore très simplement, mais tout en finesse.<br>Ovaom souhaite ainsi éveiller notre attention au son, ouvrir notre imaginaire sonore et musical.<br></p><p>Couleurs pop et formes organiques, une collection d’objets à toucher.<br>Ovaom aborde le son sous l’angle de la <strong>synesthésie</strong>, proposant des combinaisons intriguantes de formes, couleurs, textures, matières.<br><br>La Jungle Box a été exposée à Villette Makerz en mars 2019 dans le cadre du festival 100% à la Villette.</p><p>Impression 3D, capteurs, textile connecté.</p><p><a target=\"_blank\" href=\"http://www.ovaom.com\"><strong><u>Découvrir la version finale du produit sur le site d'OVAOM !</u></strong></a></p>",
+      "date": "2018 - 2019",
+      "client": "OVAOM",
+      "role": "Concept - Direction artistique : Muriel Colagrande. Design : Wandrille Heusse. Moteur audio : Muriel Colagrande et Simon Hill. Electronique : Simon Hill et Simon Juif",
+      "url": "http://www.ovaom.com",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/ovaom/01.webp",
+          "w": 1500,
+          "h": 1011
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/02.webp",
+          "w": 1600,
+          "h": 1535
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/03.webp",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/04.webp",
+          "w": 1000,
+          "h": 667
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/05.webp",
+          "w": 1000,
+          "h": 667
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/06.webp",
+          "w": 1500,
+          "h": 844
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/07.webp",
+          "w": 1500,
+          "h": 837
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/08.webp",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/09.webp",
+          "w": 926,
+          "h": 211
+        },
+        {
+          "type": "vimeo",
+          "id": "315145184"
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/10.webp",
+          "w": 1500,
+          "h": 1000
+        },
+        {
+          "type": "image",
+          "src": "img/ovaom/11.webp",
+          "w": 1500,
+          "h": 992
+        }
+      ],
+      "tags": [
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/ovaom/thumb.webp"
+    },
+    {
+      "slug": "house",
+      "title": "house",
+      "archived": false,
+      "description": "<p><em>\"À la lisière de l’eau, un bras de lecture se déploie comme un instrument délicat, lisant la surface ondulante tel un diamant parcourant le sillon d’un disque vinyle. Le flux devient partition, les rides deviennent rythme.\"</em><br>L'artiste <a target=\"_blank\" href=\"https://filipevilasboas.com/\">Filipe Vilas-Boas</a> m'a demandé de créer un dispositif embarqué et frugal pour permettre aux passants de vivre cette expérience.<br><br>En se connectant au réseau local de la tête de lecture, les passants peuvent entendre le son généré par la lecture de la surface de l'eau. Ils peuvent sculpter leur son, à la fois en créant des remous dans l'eau (fréquence), et en jouant avec quelques réglages simples sur leur téléphone (enveloppe, réverb, vibrato, delay) comme un introduction à la synthèse sonore.<br>Ils peuvent s'absorber dans l'écoute et la contemplation de l'onde produite.<br></p><p><a target=\"_blank\" href=\"https://colagrande.com/house/\">Testez la version web !</a></p><p><br>Impression 3D, lecteur à ultrason + carte Arduino ESP32, webaudio API, JS<br></p><p>Pour suivre le développement du projet : <a target=\"_blank\" href=\"https://www.instagram.com/stories/highlights/18042185434765890/\">Story Instagram</a></p>",
+      "date": "2024",
+      "client": "Filip Vilas Boas",
+      "role": "UX-UI Design et programmation, en collaboration avec Filipe Vilas-Boas et LemonMilk Studio pour la modélisation 3D",
+      "url": "https://colagrande.com/house/",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/house/01.webp",
+          "w": 1400,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "img/house/02.webp",
+          "w": 1400,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "img/house/03.webp",
+          "w": 1400,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "img/house/04.webp",
+          "w": 1170,
+          "h": 1407
+        },
+        {
+          "type": "image",
+          "src": "img/house/05.webp",
+          "w": 800,
+          "h": 530
+        },
+        {
+          "type": "image",
+          "src": "img/house/06.webp",
+          "w": 1400,
+          "h": 1280
+        }
+      ],
+      "tags": [
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/house/thumb.webp"
+    },
+    {
+      "slug": "tipop-academy",
+      "title": "TiPOP Academy",
+      "archived": false,
+      "description": "<p><em>Attrape ton ocarina magique et envole-toi pour les Sonoriterres !<br>Ce bruissant archipel abrite une étonnante académie de musique, la TiPOP Academy. Dans ta quête du solo idéal, tu feras la rencontre de BeBop, Amagamus Mozart, SambaSan, et bien d’autres encore, chacun maître d’un style musical. Ces musiciens hauts en couleur et au déhanché mythique t’enseigneront tous les secrets de leur art !</em></p><p>TiPOP Academy est un jeu musical, joyeux et plein de fantaisie, conçu pour éveiller le talent musical chez les enfants.<br>Pour ce projet nous avons obtenu le soutien du CNC, la rédaction du Game Design Document est en cours.</p>",
+      "date": "2025",
+      "role": "Auteurs : Muriel Colagrande, Pierre-Louis Bouvier, Mathieu Cordreaux",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/tipop-academy/01.webp",
+          "w": 1272,
+          "h": 1750
+        }
+      ],
+      "tags": [
+        "music"
+      ],
+      "thumb": "img/tipop-academy/thumb.webp"
+    },
+    {
+      "slug": "waicah",
+      "title": "Waicah",
+      "archived": false,
+      "description": "<p>Waicah - Your Medical AI Copilot - est une plateforme innovante, conçue pour fluidifier la relation patient-médecin.<br>Elle comporte une version patient, qui permet d'effectuer ses pré-consultations et d'avoir des informations post-consultation, 24h/24, grâce à son agent conversationnel polyglotte.<br>La version médecin synthétise les informations recueillies sous formes visuelle, automatise la prise de notes et propose une smart search assistée dans des bases documentaires médicales.<br>Waicah veut résolument casser les codes habituellement réservés à la médecin, s'inscrivant dans une approche centrée sur l'humain et la relation.<br>Je conçoit l'UX et l'UI de la plateforme de ce produit innovant, en constante évolution, avec le défi de rendre ses nombreuses fonctionnalités les plus légères possibles, tant à l'usage, qu'au niveau visuel.</p>",
+      "date": "2025",
+      "client": "Waicah",
+      "role": "UX-UI, branding",
+      "url": "https://www.waicah.com",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/waicah/01.webp",
+          "w": 1200,
+          "h": 788
+        },
+        {
+          "type": "image",
+          "src": "img/waicah/02.webp",
+          "w": 1200,
+          "h": 722
+        },
+        {
+          "type": "image",
+          "src": "img/waicah/03.webp",
+          "w": 1200,
+          "h": 748
+        },
+        {
+          "type": "image",
+          "src": "img/waicah/04.webp",
+          "w": 1200,
+          "h": 748
+        },
+        {
+          "type": "image",
+          "src": "img/waicah/05.webp",
+          "w": 1200,
+          "h": 649
+        },
+        {
+          "type": "image",
+          "src": "img/waicah/06.webp",
+          "w": 1366,
+          "h": 3808
+        }
+      ],
+      "tags": [
+        "branding",
+        "ux-ui"
+      ],
+      "thumb": "img/waicah/thumb.webp"
+    },
+    {
+      "slug": "paysages-sonores",
+      "title": "Paysages sonores",
+      "archived": false,
+      "description": "<p>Audiologys, un laboratoire d'audiologie m'a demandé de concevoir son site internet. <span>J'ai proposé d'y intégrer un jeu musical, adapté aux sourds et malentendants. </span><span>Ils peuvent composer et tester leurs appareils auditifs aidés par la représentation graphique de la musique.</span></p>",
+      "date": "2009",
+      "client": "Audiologys",
+      "role": "Direction artistique, programmation : Muriel Colagrande",
+      "url": "http://www.colagrande.com/encours/AUDIOLOGYS/laboSon/",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/paysages-sonores/01.webp",
+          "w": 1400,
+          "h": 789
+        },
+        {
+          "type": "image",
+          "src": "img/paysages-sonores/02.webp",
+          "w": 1400,
+          "h": 789
+        },
+        {
+          "type": "image",
+          "src": "img/paysages-sonores/03.webp",
+          "w": 1400,
+          "h": 789
+        },
+        {
+          "type": "image",
+          "src": "img/paysages-sonores/04.webp",
+          "w": 1400,
+          "h": 980
+        }
+      ],
+      "tags": [
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/paysages-sonores/thumb.webp"
+    },
+    {
+      "slug": "meludia-le-jeu",
+      "title": "Meludia",
+      "archived": false,
+      "description": "<p><span>Meludia est une méthode d'apprentissage, de la musique basée sur le développement de l'écoute et les émotions.<br></span><span>Elle est le fruit du travail de toute une vie, de la part de Vincent Chaintrier, compositeur et pédagogue.</span><span> Elle s'adresse aussi bien  aux débutants qu'aux musiciens professionnels.<br>La mission était de transcrire les concepts en expériences interactive.<br></span></p>\n\n<p><i>Ecrans de menu et jeux de l'application web. Le graphisme vient aider l'utilisateur mais en veillant à ce qu'il ne prenne pas le pas sur l'ouïe.</i></p>",
+      "date": "2014-2015",
+      "client": "Meludia",
+      "role": "Direction artistique : Muriel Colagrande, Dany Afonso, Alice Zavaro",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/meludia-le-jeu/01.webp",
+          "w": 1400,
+          "h": 745
+        },
+        {
+          "type": "image",
+          "src": "img/meludia-le-jeu/02.webp",
+          "w": 1400,
+          "h": 745
+        },
+        {
+          "type": "image",
+          "src": "img/meludia-le-jeu/03.webp",
+          "w": 1400,
+          "h": 746
+        },
+        {
+          "type": "image",
+          "src": "img/meludia-le-jeu/04.webp",
+          "w": 1400,
+          "h": 746
+        },
+        {
+          "type": "image",
+          "src": "img/meludia-le-jeu/05.webp",
+          "w": 1400,
+          "h": 741
+        },
+        {
+          "type": "image",
+          "src": "img/meludia-le-jeu/06.webp",
+          "w": 1400,
+          "h": 741
+        }
+      ],
+      "tags": [
+        "music",
+        "ux-ui"
+      ],
+      "thumb": "img/meludia-le-jeu/thumb.webp"
+    },
+    {
+      "slug": "faisons-bouger-la-republique",
+      "title": "Faisons bouger la République !",
+      "archived": false,
+      "description": "<p><em>\"À la veille des 20 ans de la loi handicap du 11 février 2005 censée garantir l’égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées, nous ne pouvons nous résoudre à célébrer un texte trop souvent ignoré ou dérogé.\"</em><br><em>Tous à la République</em>, projection interactive de l'artiste <a target=\"_blank\" href=\"https://filipevilasboas.com/Tous-a-la-Republique\">Filipe Vilas-Boas</a>, produite par le studio <a target=\"_blank\" href=\"https://the-fairy.com/\">The Fairy</a>, pour célébrer le non-anniversaire de la loi handicap, sur la place de la République, à Paris, en février 2025.<br>Conception et design du site événementiel.</p>",
+      "date": "2025",
+      "client": "The Fairy",
+      "role": "UX-UI Design",
+      "url": "https://faisonsbougerlarepublique.org",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/faisons-bouger-la-republique/01.webp",
+          "w": 1600,
+          "h": 900
+        },
+        {
+          "type": "image",
+          "src": "img/faisons-bouger-la-republique/02.webp",
+          "w": 320,
+          "h": 1016
+        },
+        {
+          "type": "image",
+          "src": "img/faisons-bouger-la-republique/03.webp",
+          "w": 914,
+          "h": 704
+        },
+        {
+          "type": "image",
+          "src": "img/faisons-bouger-la-republique/04.webp",
+          "w": 1600,
+          "h": 1627
+        },
+        {
+          "type": "image",
+          "src": "img/faisons-bouger-la-republique/05.webp",
+          "w": 1600,
+          "h": 1611
+        }
+      ],
+      "tags": [
+        "ux-ui"
+      ],
+      "thumb": "img/faisons-bouger-la-republique/thumb.webp"
+    },
+    {
+      "slug": "alloalbert",
+      "title": "Allô, Albert ?",
+      "archived": false,
+      "description": "<p>Voici le premier assistant personnel vocal absurde. Bourré d'électronique, il n'est pas intelligent, est incapable de vous donner des informations ni d’anticiper vos besoins. <em>Allô, Albert ?</em> se borne juste à répéter vos demandes. Il espère ajouter un peu d'humour dans le panorama des assistants personnels vocaux du marché. Tracés au cordeau, ceux-ci sont ultra-connectés, ultra-efficaces mais aussi ultra-inquiétants...</p><p><em>Allô, Albert ?</em> tire son nom du dictionnaire en deux volumes de <em>Téléchat</em>, émission culte des années 80's destinée aux enfants. Petite, je regardais avec délectation et sans tout comprendre, ce programme subversif.<br></p><p>Impression 3D, grès émaillé.</p><p>Réalisé dans le cadre du collectif de résidents d'ICIMontreuil, HandMadeICI, exposé à <em>now Le Off!</em> lors de la Paris Design Week 2016</p><p><em>Les objets « intelligents » prennent de plus en plus d’importance dans notre quotidien. Certains nous paraissent anodins et d'autres, à l’inverse, relever pratiquement de la magie. Nous les appréhendons avec nos codes habituels, où la forme est l’unique expression de la fonction. Et pourtant ils sont différents, ce sont des hybrides, entre objets et ordinateurs.</em></p>",
+      "date": "2016",
+      "role": "Conception, électronique : Muriel Colagrande. Sculpture : Marc Antoine de Lacger, Modélisation 3D : Flora Sifflet et Pierric Verger",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/alloalbert/01.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/alloalbert/02.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/alloalbert/03.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "vimeo",
+          "id": "242901105"
+        },
+        {
+          "type": "image",
+          "src": "img/alloalbert/04.webp",
+          "w": 1600,
+          "h": 1067
+        },
+        {
+          "type": "image",
+          "src": "img/alloalbert/05.webp",
+          "w": 1600,
+          "h": 1067
+        }
+      ],
+      "tags": [
+        "music",
+        "personal-work"
+      ],
+      "thumb": "img/alloalbert/thumb.webp"
+    },
+    {
+      "slug": "touching-music",
+      "title": "Touching Music",
+      "archived": false,
+      "description": "<p>Série d'illustrations vectorielles sur le concept Musique à toucher</p>",
+      "date": "2017",
+      "role": "Illustration : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/touching-music/01.webp",
+          "w": 1500,
+          "h": 885
+        },
+        {
+          "type": "image",
+          "src": "img/touching-music/02.webp",
+          "w": 1500,
+          "h": 759
+        },
+        {
+          "type": "image",
+          "src": "img/touching-music/03.webp",
+          "w": 1500,
+          "h": 755
+        },
+        {
+          "type": "image",
+          "src": "img/touching-music/04.webp",
+          "w": 1263,
+          "h": 893
+        }
+      ],
+      "tags": [
+        "personal-work"
+      ],
+      "thumb": "img/touching-music/thumb.webp"
+    },
+    {
+      "slug": "totemika",
+      "title": "Totemika",
+      "archived": false,
+      "description": "<p>La chaise <i>Totemika</i> est issue d'une collaboration avec le designer <a href=\"https://cargocollective.com/wandrilleheusse\" title=\"Link: https://cargocollective.com/wandrilleheusse\">Wandrille Heusse</a> et l’atelier <a href=\"http://www.milkybluefactory.com/\">Milky Blue Factory</a> dont l'objectif a été de \ntravailler conjointement au développement d'un produit mettant en forme,\n résine végétale et des matériaux en fibre naturelle tel que le bambou, \nle lin et le liège.</p>\n\n<p>Acier, résine biosourcée, aggloméré de lin, fourrure, jute, liège, peinture.<br></p>\n\n<p>Le projet a été réalisé dans le cadre du collectif <i>HandMadeIci</i> et exposées à <i>now Le Off!</i> lors de la Paris Design Week 2017</p>",
+      "date": "2017",
+      "role": "Co-conception, réalisation : Muriel Colagrande et Wandrille Heusse",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/totemika/01.webp",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/02.webp",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/03.webp",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/04.webp",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/05.webp",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/06.webp",
+          "w": 1600,
+          "h": 1066
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/07.webp",
+          "w": 720,
+          "h": 960
+        },
+        {
+          "type": "image",
+          "src": "img/totemika/08.webp",
+          "w": 960,
+          "h": 685
+        }
+      ],
+      "tags": [
+        "personal-work"
+      ],
+      "thumb": "img/totemika/thumb.webp"
+    },
+    {
+      "slug": "jumeau-numerique",
+      "title": "Jumeau numérique",
+      "archived": false,
+      "description": "<p><i>On se Facebook, on se tweet... Vous pensez maîtriser votre double numérique, mais êtes-vous sûr de bien le connaître ? D'ailleurs, savez-vous ce qu'il est en train de faire en ce moment ?</i></p>\n\n<p>Installation interactive éphémère pour l'inauguration d'une agence de communication.<br>A l'entrée, les invités se prenaient en photo sur une borne. Ils donnaient leur autorisation, sans savoir ce que leur image deviendrait.<br>Dans la salle du cocktail, leur visage était projeté, en live, sur grand écran, automatiquement intégré dans des photos. Toutes trouvées sur le web, elles les mettaient en scène, seuls ou avec d'autres personnes de la soirée, dans des situations qui pouvaient être embarrassantes.<br></p>\n\n\n\n<p>Dans ce type d'événement où l'on veut parfois se faire valoir, chacun se retrouvait, face aux autres, confronté à son terrible double numérique.</p>\n\n\n\n\n\n<p>Ordinateur, webcam, vidéoprojecteur.<br></p>",
+      "date": "2009",
+      "role": "Concept, réalisation : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/01.webp",
+          "w": 1400,
+          "h": 617
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/02.webp",
+          "w": 1400,
+          "h": 952
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/03.webp",
+          "w": 1400,
+          "h": 952
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/04.webp",
+          "w": 1400,
+          "h": 875
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/05.webp",
+          "w": 1400,
+          "h": 986
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/06.webp",
+          "w": 1400,
+          "h": 986
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/07.webp",
+          "w": 1400,
+          "h": 949
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/08.webp",
+          "w": 1400,
+          "h": 1001
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/09.webp",
+          "w": 1400,
+          "h": 1645
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/10.webp",
+          "w": 1400,
+          "h": 900
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/11.webp",
+          "w": 1400,
+          "h": 1753
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/12.webp",
+          "w": 1400,
+          "h": 1567
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/13.webp",
+          "w": 1400,
+          "h": 919
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/14.webp",
+          "w": 1400,
+          "h": 1069
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/15.webp",
+          "w": 1400,
+          "h": 931
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/16.webp",
+          "w": 1400,
+          "h": 1128
+        },
+        {
+          "type": "image",
+          "src": "img/jumeau-numerique/17.webp",
+          "w": 1400,
+          "h": 1659
+        }
+      ],
+      "tags": [
+        "personal-work",
+        "ux-ui"
+      ],
+      "thumb": "img/jumeau-numerique/thumb.webp"
+    },
+    {
+      "slug": "grande-fantaisie",
+      "title": "Grande Fantaisie",
+      "archived": false,
+      "description": "<p>La Péniche Grande Fantaisie, est un lieu ouvert sur son quartier, le canal de l'Ourcq à Paris, et ses habitants, mêlant allègrement le mélange des genres, proposant une programmation culturelle et de la restauration.</p>\n\n<p><i>L'identité : à l'image du lieu et de ses propriétaires elle est souple, en mouvement sur l'eau, avec une touche art déco, pour rendre hommage à cette péniche classée des années 20's.</i></p>",
+      "date": "2015",
+      "client": "Péniche Grande Fantaisie",
+      "role": "Graphisme : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/grande-fantaisie/01.webp",
+          "w": 1400,
+          "h": 600
+        },
+        {
+          "type": "image",
+          "src": "img/grande-fantaisie/02.webp",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "type": "image",
+          "src": "img/grande-fantaisie/03.webp",
+          "w": 1400,
+          "h": 1083
+        },
+        {
+          "type": "image",
+          "src": "img/grande-fantaisie/04.webp",
+          "w": 1400,
+          "h": 1083
+        },
+        {
+          "type": "image",
+          "src": "img/grande-fantaisie/05.webp",
+          "w": 1400,
+          "h": 1083
+        }
+      ],
+      "tags": [
+        "branding"
+      ],
+      "thumb": "img/grande-fantaisie/thumb.webp"
+    },
+    {
+      "slug": "buffet",
+      "title": "Buffet Rivages",
+      "archived": false,
+      "description": "<p><span>Inspiré par les souvenirs d'enfance des plages bretonnes. Lorsque la mer se retire loin. L'impression de devoir marcher pendant des heures sur les textures de sable pour l'atteindre.<br></span></p>\n\n<p><span>Sur les panneaux lisses en chêne huilé </span><span><span>le paysage dessiné par les veines du bois ressort délicatement.</span> Le motif de goujures sur les panneaux centraux vient perturber celui-ci.</span><br></p>\n\n<p><span>Chêne huilé, plateau en corian et piètement en métal laqué époxy. Goujures réalisées à la fraiseuse numérique.</span></p>",
+      "date": "2016",
+      "role": "Design : Muriel Colagrande. Fabrication : Pascal Mounier, atelier IKeB.",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/buffet/01.webp",
+          "w": 811,
+          "h": 513
+        },
+        {
+          "type": "image",
+          "src": "img/buffet/02.webp",
+          "w": 770,
+          "h": 513
+        },
+        {
+          "type": "image",
+          "src": "img/buffet/03.webp",
+          "w": 770,
+          "h": 513
+        },
+        {
+          "type": "image",
+          "src": "img/buffet/04.webp",
+          "w": 770,
+          "h": 513
+        },
+        {
+          "type": "image",
+          "src": "img/buffet/05.webp",
+          "w": 640,
+          "h": 480
+        },
+        {
+          "type": "image",
+          "src": "img/buffet/06.webp",
+          "w": 1200,
+          "h": 900
+        }
+      ],
+      "tags": [
+        "personal-work"
+      ],
+      "thumb": "img/buffet/thumb.webp"
+    },
+    {
+      "slug": "association-des-psychnalystes-europeens",
+      "title": "Association des Psychnalystes Européens",
+      "archived": false,
+      "description": "<p>L'Association des Psychanalystes Européens revendique une psychanalyse ouverte sur le monde, au carrefour des idées et des cultures, pour une pratique engagée et solidaire.<br>Ils ont fait appel à moi pour créer leur identité graphique, en y intégrant les codes couleurs du drapeau Européen et la figure de Freud.<br>Création d'une identité simple et sobre, reprenant ces codes et une inspiration Bauhaus, dans une tonalité contemporaine.<br>L'identité devait être simple à mettre en oeuvre pour les bénévoles de l'association et pouvoir s'intégrer à un template Wordpress.</p>",
+      "date": "2025",
+      "client": "Association des Psychanalystes Européens",
+      "role": "DA-UI",
+      "url": "https://www.ape-psychanalyse.com",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/association-des-psychnalystes-europeens/01.webp",
+          "w": 800,
+          "h": 800
+        },
+        {
+          "type": "image",
+          "src": "img/association-des-psychnalystes-europeens/02.webp",
+          "w": 800,
+          "h": 552
+        },
+        {
+          "type": "image",
+          "src": "img/association-des-psychnalystes-europeens/03.webp",
+          "w": 1600,
+          "h": 813
+        }
+      ],
+      "tags": [
+        "branding",
+        "ux-ui"
+      ],
+      "thumb": "img/association-des-psychnalystes-europeens/thumb.webp"
+    },
+    {
+      "slug": "hack-ton-futur",
+      "title": "Hack Ton Futur",
+      "archived": false,
+      "description": "<p>Hack Ton Futur est une webapp à destination des collégiens et lycéens.<br>Celle-ci comporte des parcours d'apprentissage ludiques sur des thématiques liées au numérique : intelligence artificielle, cybersécurité, impact écologique du numérique, cyberharcèlement...<br>Chaque parcours comporte des modules sous forme d'escape game, jeu interactif, quiz ou vidéo.<br><br>Il fallait créer deux pages de site en responsive. Une home page ainsi qu'une page spécifique pour les enseignants.<br>Le design devait plaire à la fois aux jeunes et à leurs enseignants.<br></p>",
+      "date": "2024",
+      "client": "StartupForKids",
+      "role": "UX-UI Design",
+      "url": "https://hacktonfutur.io/",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/hack-ton-futur/01.webp",
+          "w": 1400,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "img/hack-ton-futur/02.webp",
+          "w": 1400,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "img/hack-ton-futur/03.webp",
+          "w": 1400,
+          "h": 1280
+        },
+        {
+          "type": "image",
+          "src": "img/hack-ton-futur/04.webp",
+          "w": 1600,
+          "h": 873
+        },
+        {
+          "type": "image",
+          "src": "img/hack-ton-futur/05.webp",
+          "w": 1600,
+          "h": 1026
+        },
+        {
+          "type": "image",
+          "src": "img/hack-ton-futur/06.webp",
+          "w": 1600,
+          "h": 757
+        }
+      ],
+      "tags": [
+        "ux-ui"
+      ],
+      "thumb": "img/hack-ton-futur/thumb.webp"
+    },
+    {
+      "slug": "balades-ludiques",
+      "title": "City Anecdotes",
+      "archived": false,
+      "description": "<p>City Anecdotes - Paris : Une aventure ludique sur iPhone pour découvrir Paris.<br>Choisissez une des 6 balades et laissez-vous guider par Marcel, notre parisien préféré. Il a toujours une anecdote ou un lieu insolite à vous faire découvrir. A chaque étape, une touche de culture, et un défi interactif pour s’en souvenir. Jeux des erreurs, défis photos, textes mystères, quiz…<br><br><em>Identité visuelle, illustration, interface mobile.</em></p>",
+      "date": "2012",
+      "client": "Ugly Ducklings",
+      "role": "Direction artistique, rédaction de contenu : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/balades-ludiques/01.webp",
+          "w": 1400,
+          "h": 903
+        },
+        {
+          "type": "image",
+          "src": "img/balades-ludiques/02.webp",
+          "w": 1400,
+          "h": 1024
+        },
+        {
+          "type": "image",
+          "src": "img/balades-ludiques/03.webp",
+          "w": 1400,
+          "h": 1344
+        },
+        {
+          "type": "image",
+          "src": "img/balades-ludiques/04.webp",
+          "w": 1400,
+          "h": 1032
+        },
+        {
+          "type": "image",
+          "src": "img/balades-ludiques/05.webp",
+          "w": 1400,
+          "h": 1030
+        },
+        {
+          "type": "image",
+          "src": "img/balades-ludiques/06.webp",
+          "w": 640,
+          "h": 960
+        }
+      ],
+      "tags": [
+        "branding",
+        "ux-ui"
+      ],
+      "thumb": "img/balades-ludiques/thumb.webp"
+    },
+    {
+      "slug": "la-musique-est-deja-en-vous",
+      "title": "La musique est déjà en vous",
+      "archived": false,
+      "description": "<p>Meludia est une nouvelle méthode d'apprentissage de la musique basée sur le développement de l'écoute et les émotions. Elle s'adresse aussi bien  aux débutants qu'aux musiciens professionnels.<br></p><p><em>Définition de l'image de marque et production de visuels de communication : prendre du plaisir à écouter, jouer, créer de la musique, language universel.</em><br></p>",
+      "date": "2015",
+      "client": "Meludia",
+      "role": "Direction artistique et photographie (en collaboration avec Dany Afonso et Alice Zavaro)",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/01.webp",
+          "w": 1400,
+          "h": 788
+        },
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/02.webp",
+          "w": 1400,
+          "h": 789
+        },
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/03.webp",
+          "w": 1400,
+          "h": 788
+        },
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/04.webp",
+          "w": 1400,
+          "h": 788
+        },
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/05.webp",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/06.webp",
+          "w": 1400,
+          "h": 1400
+        },
+        {
+          "type": "image",
+          "src": "img/la-musique-est-deja-en-vous/07.webp",
+          "w": 1400,
+          "h": 817
+        }
+      ],
+      "tags": [
+        "branding",
+        "ux-ui"
+      ],
+      "thumb": "img/la-musique-est-deja-en-vous/thumb.webp"
+    },
+    {
+      "slug": "demain-commence-aujourdhui",
+      "title": "Demain Commence Aujourd'hui",
+      "archived": false,
+      "description": "<p>L'association Startup For Kids, lance son programme pour les lycéens de prospective sur les métiers du futur.</p><p><em>L'identité : colorée, elle mêle une utilisation créative des codes geek ; leet speak et glitch, sur fond de paysages de Mars, photographiés par le programme </em><a target=\"_blank\" href=\"http://hirise.lpl.arizona.edu\"><em>HiRISE</em></a><em>.</em></p>",
+      "date": "2017",
+      "client": "StartupForKids",
+      "role": "Direction artistique",
+      "url": "http://dca.startupforkids.fr",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/01.webp",
+          "w": 1480,
+          "h": 1109
+        },
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/02.webp",
+          "w": 1480,
+          "h": 1109
+        },
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/03.webp",
+          "w": 1400,
+          "h": 1176
+        },
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/04.webp",
+          "w": 1400,
+          "h": 988
+        },
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/05.webp",
+          "w": 1404,
+          "h": 1058
+        },
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/06.webp",
+          "w": 1400,
+          "h": 1099
+        },
+        {
+          "type": "image",
+          "src": "img/demain-commence-aujourdhui/07.webp",
+          "w": 1480,
+          "h": 1109
+        }
+      ],
+      "tags": [
+        "branding",
+        "ux-ui"
+      ],
+      "thumb": "img/demain-commence-aujourdhui/thumb.webp"
+    },
+    {
+      "slug": "a2z-art-gallery",
+      "title": "A2Z - Art Gallery",
+      "archived": false,
+      "description": "<p>Conception du site de la galerie A2Z. Galerie franco-chinoise d'art contemporain.</p>",
+      "date": "2009",
+      "client": "A2Z",
+      "role": "Direction artistique, programmation : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/a2z-art-gallery/01.webp",
+          "w": 1400,
+          "h": 957
+        },
+        {
+          "type": "image",
+          "src": "img/a2z-art-gallery/02.webp",
+          "w": 1400,
+          "h": 2068
+        },
+        {
+          "type": "image",
+          "src": "img/a2z-art-gallery/03.webp",
+          "w": 1400,
+          "h": 957
+        }
+      ],
+      "tags": [
+        "ux-ui"
+      ],
+      "thumb": "img/a2z-art-gallery/thumb.webp"
+    },
+    {
+      "slug": "whaller",
+      "title": "Whaller",
+      "archived": false,
+      "description": "<p>Whaller propose une alternative aux réseaux sociaux \"publics\". Grâce à un système exclusif de sphères, le particulier, l'association ou l'entreprise peut créer et administrer plusieurs réseaux sociaux privatifs avec un seul compte.</p>\n\n<p><i>Image de marque, logo, conception de l'interface de la webapp et des éléments de communication : site internet et plaquette.</i></p>",
+      "date": "2015",
+      "client": "Whaller",
+      "role": "Direction artistique",
+      "url": "http://www.whaller.com",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/whaller/01.webp",
+          "w": 1400,
+          "h": 919
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/02.webp",
+          "w": 1400,
+          "h": 1500
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/03.webp",
+          "w": 1400,
+          "h": 1608
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/04.webp",
+          "w": 1600,
+          "h": 1225
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/05.webp",
+          "w": 1600,
+          "h": 1277
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/06.webp",
+          "w": 1400,
+          "h": 460
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/07.webp",
+          "w": 1400,
+          "h": 460
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/08.webp",
+          "w": 1400,
+          "h": 408
+        },
+        {
+          "type": "image",
+          "src": "img/whaller/09.webp",
+          "w": 1400,
+          "h": 1066
+        }
+      ],
+      "tags": [
+        "branding",
+        "ux-ui"
+      ],
+      "thumb": "img/whaller/thumb.webp"
+    },
+    {
+      "slug": "ucky-adventures",
+      "title": "Les aventures d'Ucky",
+      "archived": false,
+      "description": "<p>Jeu pour tablette tactile pour enfants découvrir des villes. Elle met en scène Ucky, le robot-canard, parti à la recherche de ses amis à travers le monde. Chaque tableau figure une capitale. L'enfant y cherche des pièces à collectionner pour reconstituer ses amis, c'est l'occasion de découvrir des anecdotes sur les monuments.</p>",
+      "date": "2013",
+      "client": "Ugly Ducklings",
+      "role": "Direction artistique, scénario : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/ucky-adventures/01.webp",
+          "w": 1400,
+          "h": 875
+        },
+        {
+          "type": "vimeo",
+          "id": "146364678"
+        },
+        {
+          "type": "image",
+          "src": "img/ucky-adventures/02.webp",
+          "w": 1400,
+          "h": 788
+        },
+        {
+          "type": "image",
+          "src": "img/ucky-adventures/03.webp",
+          "w": 1400,
+          "h": 788
+        }
+      ],
+      "tags": [
+        "ux-ui"
+      ],
+      "thumb": "img/ucky-adventures/thumb.webp"
+    },
+    {
+      "slug": "space-junk",
+      "title": "Space Junk",
+      "archived": false,
+      "description": "<p>Recensement des portes d'accès aux dimension parallèles.</p>\n\n<p><i>To be continued...<br></i></p>",
+      "role": "Photographie : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/space-junk/01.webp",
+          "w": 1400,
+          "h": 690
+        },
+        {
+          "type": "image",
+          "src": "img/space-junk/02.webp",
+          "w": 1400,
+          "h": 1050
+        },
+        {
+          "type": "image",
+          "src": "img/space-junk/03.webp",
+          "w": 1400,
+          "h": 825
+        }
+      ],
+      "tags": [
+        "personal-work"
+      ],
+      "thumb": "img/space-junk/thumb.webp"
+    }
+  ]
+}
