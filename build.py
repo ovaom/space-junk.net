@@ -17,6 +17,8 @@ tags = data["tags"]
 projects = [p for p in data["projects"] if not p.get("hidden")]
 current = [p for p in projects if not p.get("archived")]
 archived = [p for p in projects if p.get("archived")]
+# un tag n'a sa page que s'il concerne au moins un projet de l'accueil
+live_tags = {k: v for k, v in tags.items() if any(k in p.get("tags", []) for p in current)}
 
 
 def page(title, body, desc=None, cls=""):
@@ -72,7 +74,7 @@ def grid(items):
 
 def tag_nav(active=None):
     links = [f'<a href="/"{" class=active" if active is None else ""}>Tout</a>']
-    for key, label in tags.items():
+    for key, label in live_tags.items():
         cls = " class=active" if key == active else ""
         links.append(f'<a href="/tag/{key}/"{cls}>{escape(label)}</a>')
     return f'<nav class="tags">{"".join(links)}</nav>'
@@ -106,7 +108,8 @@ def project_page(p, siblings):
         shown = re.sub(r"^https?://(www\.)?", "", p["url"]).rstrip("/")
         meta.append(f'<dt>Lien</dt><dd><a href="{escape(p["url"])}" target="_blank" rel="noopener">{escape(shown)}</a></dd>')
     if p.get("tags"):
-        links = ", ".join(f'<a href="/tag/{t}/">{escape(tags.get(t, t))}</a>' for t in p["tags"])
+        links = ", ".join(f'<a href="/tag/{t}/">{escape(tags[t])}</a>' if t in live_tags
+                          else escape(tags.get(t, t)) for t in p["tags"])
         meta.append(f"<dt>Tags</dt><dd>{links}</dd>")
 
     i = siblings.index(p)
@@ -139,7 +142,7 @@ def main():
     (OUT / ".nojekyll").write_text("")
 
     write("", page(None, f'<div class="wrap">{tag_nav()}{grid(current)}</div>'))
-    for key, label in tags.items():
+    for key, label in live_tags.items():
         items = [p for p in current if key in p.get("tags", [])]
         write(f"tag/{key}", page(label, f'<div class="wrap">{tag_nav(key)}{grid(items)}</div>'))
     for p in current:
@@ -153,6 +156,7 @@ def main():
     about = data["about"]
     write("about-me", page("À propos", f"""<article class="wrap prose">
   <h1 class="page-title">{escape(about['title'])}</h1>
+  {f'<img class="portrait" src="/{about["photo"]}" alt="{escape(about["title"])}">' if about.get("photo") else ""}
   {about['html']}
 </article>"""))
 

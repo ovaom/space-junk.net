@@ -9,11 +9,13 @@
     "branding": "branding",
     "music": "music",
     "personal-work": "personal work",
-    "ux-ui": "UX-UI"
+    "ux-ui": "UX-UI",
+    "graphic-design": "graphic design"
   },
   "about": {
     "title": "Muriel Colagrande",
-    "html": "<p><em>Je m'intéresse aux êtres humains, à l'art, à l'imagination et à la création, à l'innovation dans l'éducation et les soins, à la technologie et à la programmation...<br>Idéalement, j'aime tout cela mixé ensemble !</em><br></p><p>Muriel Colagrande est formée aux arts appliqués à La Martinière, à Lyon. Elle se passionne pour le design d’interaction et apprend à programmer. Pendant plusieurs années elle crée des sites internet et designe des applications mobiles, puis se consacre ensuite à la direction artistique de projets innovants au sein de plusieurs startup. La découverte de l’électronique programmable en 2016 lui ouvre un nouveau champ, avec l’envie de créer des expériences interactives tangibles, à partager au-delà de l’écran.<br></p><p>Le travail de Muriel questionne les liens entre êtres humains et nouvelles technologies. Elle aime créer la surprise avec des dispositifs qui semblent au premier abord anodins : un jeu, un jouet, un meuble. Sous l’action de l’utilisateur ou du visiteur, le dispositif révèle ses intentions cachées. L’installation <a href=\"/jumeau-numerique/\"><em>Jumeau Numérique</em></a> nous interpelle sur nos rapports aux réseaux sociaux grâce à la mise en scène d’un terrible double, symbolisant la hantise de nos archives numérique.<a href=\"/alloalbert/\"><em> Allô, Albert ?</em></a>, questionne les intelligences artificielles, le rapport entre ce qui est exécuté par la machine et par l’artisan/l'artiste, associant les process de modélisation et d’impression 3D/PLA avec le travail de la terre et des émaux.</p><p>Muriel pense que les nouvelles technologies doivent servir à valoriser l’humain dans ce qui fait ses forces, et pose la sensorialité et l’intuition comme des bases solides pour cette ère à venir, partagée avec les intelligences artificielles.</p><p>_ _</p><p>Muriel fonde <a href=\"http://www.ovaom.com\" target=\"_blank\" rel=\"noopener\"><em>Ovaom</em></a> en décembre 2017. Le premier dispositif qui y est développé, la Jungle Box, est un kit d'objets électronique qui permet aux enfants de développer leur écoute, dès leur plus jeune âge, par le sens du toucher. Par l’écoute, la manipulation et la production de matière musicale, l’attention est sollicitée, faisant ainsi de ces instruments des outils de médiation sensorielle et de psychomotricité. Les nouvelles technologies permettent ainsi la pratique autonome et intensive de la musique, ouvrant la voie à de de nouvelles perspectives pour son utilisation dans l’apprentissage des langues ou de la lecture. Peut-être que la musique pourrait acquérir une place fondamentale au sein de l’enseignement à l'école ?<br></p>"
+    "html": "<p><em>Je m'intéresse aux êtres humains, à l'art, à l'imagination et à la création, à l'innovation dans l'éducation et les soins, à la technologie et à la programmation...<br>Idéalement, j'aime tout cela mixé ensemble !</em><br></p><p>Muriel Colagrande est formée aux arts appliqués à La Martinière, à Lyon. Elle se passionne pour le design d’interaction et apprend à programmer. Pendant plusieurs années elle crée des sites internet et designe des applications mobiles, puis se consacre ensuite à la direction artistique de projets innovants au sein de plusieurs startup. La découverte de l’électronique programmable en 2016 lui ouvre un nouveau champ, avec l’envie de créer des expériences interactives tangibles, à partager au-delà de l’écran.<br></p><p>Le travail de Muriel questionne les liens entre êtres humains et nouvelles technologies. Elle aime créer la surprise avec des dispositifs qui semblent au premier abord anodins : un jeu, un jouet, un meuble. Sous l’action de l’utilisateur ou du visiteur, le dispositif révèle ses intentions cachées. L’installation <a href=\"/jumeau-numerique/\"><em>Jumeau Numérique</em></a> nous interpelle sur nos rapports aux réseaux sociaux grâce à la mise en scène d’un terrible double, symbolisant la hantise de nos archives numérique.<a href=\"/alloalbert/\"><em> Allô, Albert ?</em></a>, questionne les intelligences artificielles, le rapport entre ce qui est exécuté par la machine et par l’artisan/l'artiste, associant les process de modélisation et d’impression 3D/PLA avec le travail de la terre et des émaux.</p><p>Muriel pense que les nouvelles technologies doivent servir à valoriser l’humain dans ce qui fait ses forces, et pose la sensorialité et l’intuition comme des bases solides pour cette ère à venir, partagée avec les intelligences artificielles.</p><p>_ _</p><p>Muriel fonde <a href=\"http://www.ovaom.com\" target=\"_blank\" rel=\"noopener\"><em>Ovaom</em></a> en décembre 2017. Le premier dispositif qui y est développé, la Jungle Box, est un kit d'objets électronique qui permet aux enfants de développer leur écoute, dès leur plus jeune âge, par le sens du toucher. Par l’écoute, la manipulation et la production de matière musicale, l’attention est sollicitée, faisant ainsi de ces instruments des outils de médiation sensorielle et de psychomotricité. Les nouvelles technologies permettent ainsi la pratique autonome et intensive de la musique, ouvrant la voie à de de nouvelles perspectives pour son utilisation dans l’apprentissage des langues ou de la lecture. Peut-être que la musique pourrait acquérir une place fondamentale au sein de l’enseignement à l'école ?<br></p>",
+    "photo": "img/about.webp"
   },
   "projects": [
     {
@@ -1348,6 +1350,229 @@
         "personal-work"
       ],
       "thumb": "img/space-junk/thumb.webp"
+    },
+    {
+      "slug": "conservatoires-de-la-ville-de-paris",
+      "title": "Conservatoires de la ville de Paris",
+      "archived": true,
+      "description": "<p>Appel d'offre pour l'identité graphique 2010 du Conservatoire de Paris : théâtre, danse, musique. Représentation des points communs aux différentes disciplines : transmission d'émotion, énergie, rayonnement.</p><p><em>Couverture des guides.</em></p>",
+      "client": "Conservatoires de la ville de Paris",
+      "role": "Direction artistique : Muriel Colagrande",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/conservatoires-de-la-ville-de-paris/01.webp",
+          "w": 1400,
+          "h": 1259
+        },
+        {
+          "type": "image",
+          "src": "img/conservatoires-de-la-ville-de-paris/02.webp",
+          "w": 1400,
+          "h": 1259
+        },
+        {
+          "type": "image",
+          "src": "img/conservatoires-de-la-ville-de-paris/03.webp",
+          "w": 1400,
+          "h": 1259
+        },
+        {
+          "type": "image",
+          "src": "img/conservatoires-de-la-ville-de-paris/04.webp",
+          "w": 1400,
+          "h": 666
+        }
+      ],
+      "tags": [
+        "graphic-design"
+      ],
+      "thumb": "img/conservatoires-de-la-ville-de-paris/thumb.webp"
+    },
+    {
+      "slug": "rock-your-kitchen",
+      "title": "Rock Your Kitchen",
+      "archived": true,
+      "description": "<p>French Kitch a édité la Table, une tablette tactile pour rendre la cuisine facile et funky : recettes de cuisine en vidéo, astuces de chefs, moteur de recherche intelligent vous proposant des recettes grâce au contenu de votre frigo, liste de courses etc.</p><p><em>Interface, image de marque, visuels de communication, préparation de shooting photo.</em></p>",
+      "date": "2011",
+      "client": "French Kitch",
+      "role": "Direction artistique (en collaboration avec Dany Afonso)",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/01.webp",
+          "w": 1400,
+          "h": 1255
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/02.webp",
+          "w": 1400,
+          "h": 828
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/03.webp",
+          "w": 1400,
+          "h": 828
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/04.webp",
+          "w": 1400,
+          "h": 828
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/05.webp",
+          "w": 1400,
+          "h": 810
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/06.webp",
+          "w": 1400,
+          "h": 614
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/07.webp",
+          "w": 1400,
+          "h": 614
+        },
+        {
+          "type": "image",
+          "src": "img/rock-your-kitchen/08.webp",
+          "w": 1400,
+          "h": 428
+        }
+      ],
+      "tags": [
+        "graphic-design"
+      ],
+      "thumb": "img/rock-your-kitchen/thumb.webp"
+    },
+    {
+      "slug": "imagique",
+      "title": "Imagique",
+      "archived": true,
+      "description": "<p>Colagrande Imagique est spécialisée dans l'impression numérique d'affiches grand format. Mais les affiches n'ont pas toujours été là ! Au commencement de l'entreprise les peintres en lettres reproduisaient les publicités à la main directement sur les murs. </p><p><em>Logo et illustration.</em></p>",
+      "client": "Colagrande Imagique",
+      "role": "Direction artistique",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/imagique/01.webp",
+          "w": 1400,
+          "h": 1300
+        }
+      ],
+      "tags": [
+        "graphic-design"
+      ],
+      "thumb": "img/imagique/thumb.webp"
+    },
+    {
+      "slug": "toni-and-guy-brochure",
+      "title": "Toni&Guy - brochure",
+      "archived": true,
+      "description": "<p>Brochure 16 pages destinée aux coiffeurs venant suivre des formations.</p><p><em>Graphisme, mise en page.</em></p>",
+      "client": "Toni&Guy",
+      "role": "Direction artistique",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure/01.webp",
+          "w": 1400,
+          "h": 495
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure/02.webp",
+          "w": 1400,
+          "h": 745
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure/03.webp",
+          "w": 1400,
+          "h": 1015
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure/04.webp",
+          "w": 1400,
+          "h": 900
+        }
+      ],
+      "tags": [
+        "graphic-design"
+      ],
+      "thumb": "img/toni-and-guy-brochure/thumb.webp"
+    },
+    {
+      "slug": "toni-and-guy-workbook",
+      "title": "Toni&Guy workbook",
+      "archived": true,
+      "description": "<p>Cahier d'exercice donné au professionnels venus suivre une formation.</p><p><em>Graphisme de la couverture.</em></p>",
+      "client": "Toni&Guy",
+      "role": "Direction artistique",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-workbook/01.webp",
+          "w": 1400,
+          "h": 1418
+        }
+      ],
+      "tags": [
+        "graphic-design"
+      ],
+      "thumb": "img/toni-and-guy-workbook/thumb.webp"
+    },
+    {
+      "slug": "toni-and-guy-brochure-2",
+      "title": "Toni&Guy brochure 2",
+      "archived": true,
+      "description": "<p>Brochure 16 pages destinée aux coiffeurs venant suivre des formations.</p><p><em>Graphisme, mise en page.</em></p>",
+      "client": "Toni&Guy",
+      "role": "Direction artistique",
+      "assets": [
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure-2/01.webp",
+          "w": 1400,
+          "h": 990
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure-2/02.webp",
+          "w": 1400,
+          "h": 990
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure-2/03.webp",
+          "w": 1400,
+          "h": 990
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure-2/04.webp",
+          "w": 1400,
+          "h": 990
+        },
+        {
+          "type": "image",
+          "src": "img/toni-and-guy-brochure-2/05.webp",
+          "w": 1400,
+          "h": 990
+        }
+      ],
+      "tags": [
+        "graphic-design"
+      ],
+      "thumb": "img/toni-and-guy-brochure-2/thumb.webp"
     }
   ]
 }
