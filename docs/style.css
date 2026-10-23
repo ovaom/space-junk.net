@@ -28,7 +28,7 @@ h1, h2 { color: var(--heading); font-weight: 400; margin: 0; }
   padding-top: 48px; padding-bottom: 48px;
 }
 .site-title {
-  font-family: "Azeret Mono", ui-monospace, monospace;
+  font-family: "Space Mono", ui-monospace, monospace;
   font-size: 24px; color: var(--heading); letter-spacing: -0.02em;
 }
 .site-header nav { display: flex; gap: 24px; font-size: 14px; }
