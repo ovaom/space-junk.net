@@ -24,16 +24,20 @@ h1, h2 { color: var(--heading); font-weight: 400; margin: 0; }
 
 .site-header {
   display: flex; flex-wrap: wrap; gap: 12px 32px;
-  justify-content: space-between; align-items: baseline;
+  justify-content: space-between; align-items: center;
   padding-top: 48px; padding-bottom: 48px;
 }
 .site-title {
+  display: flex; align-items: center; gap: 8px;
   font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 24px; color: var(--heading); letter-spacing: -0.02em;
+  font-size: 24px; color: var(--heading); letter-spacing: -0.02em; white-space: nowrap;
 }
+.site-title img { width: auto; height: 64px; }
+.site-title:hover { color: var(--heading); }
 .site-header nav { display: flex; gap: 24px; font-size: 14px; }
 .site-header nav a { color: var(--text); }
 .site-header nav a:hover { color: var(--accent); }
+.site-header nav .icon { display: none; width: 26px; height: 26px; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 14px; margin-bottom: 40px; }
 .tags a { color: var(--muted); }
@@ -93,6 +97,14 @@ h1, h2 { color: var(--heading); font-weight: 400; margin: 0; }
 @media (max-width: 800px) {
   .wrap { padding: 0 16px; }
   .site-header { padding-top: 28px; padding-bottom: 28px; }
+  /* mobile : logo à gauche, icônes info et contact à droite */
+  .site-header { flex-wrap: nowrap; align-items: center; }
+  .site-header nav { gap: 4px; }
+  .site-header nav a { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; color: var(--heading); }
+  .site-header nav .icon { display: block; width: 16px; height: 16px; }
+  .site-header nav span { display: none; }
+  .site-title { font-size: 19px; gap: 8px; }
+  .site-title img { height: 48px; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 16px; }
   .project { grid-template-columns: 1fr; gap: 32px; }
   .info { position: static; order: -1; }

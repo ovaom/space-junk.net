@@ -21,11 +21,23 @@ archived = [p for p in projects if p.get("archived")]
 live_tags = {k: v for k, v in tags.items() if any(k in p.get("tags", []) for p in current)}
 
 
+ICONS = {
+    "info": '<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm16-40a8,8,0,0,1-8,8,16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40A8,8,0,0,1,144,176ZM112,84a12,12,0,1,1,12,12A12,12,0,0,1,112,84Z"/>',
+    "envelope": '<path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/>',
+}
+
+
+def nav_link(href, label, icon):
+    svg = f'<svg class="icon" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true">{ICONS[icon]}</svg>'
+    return f'<a href="{href}" class="nav-{icon}" aria-label="{label}">{svg}<span>{label}</span></a>'
+
+
 def page(title, body, desc=None, cls=""):
     full_title = f"{escape(title)} · {escape(site['title'])}" if title else escape(site["title"])
-    nav = ['<a href="/about-me/">À propos</a>']
+    # sur mobile, les libellés sont remplacés par les icônes (Phosphor, licence MIT)
+    nav = [nav_link("/about-me/", "À propos", "info")]
     if site.get("web3forms_key") or site.get("linkedin"):
-        nav.append('<a href="/contact/">Contact</a>')
+        nav.append(nav_link("/contact/", "Contact", "envelope"))
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -42,7 +54,7 @@ def page(title, body, desc=None, cls=""):
 </head>
 <body class="{cls}">
 <header class="site-header wrap">
-  <a class="site-title" href="/">{escape(site['title'])}</a>
+  <a class="site-title" href="/"><img src="/logo.svg" width="180" height="180" alt="">{escape(site['title'])}</a>
   <nav>{''.join(nav)}</nav>
 </header>
 <main>
