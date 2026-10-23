@@ -24,8 +24,6 @@ live_tags = {k: v for k, v in tags.items() if any(k in p.get("tags", []) for p i
 def page(title, body, desc=None, cls=""):
     full_title = f"{escape(title)} · {escape(site['title'])}" if title else escape(site["title"])
     nav = ['<a href="/about-me/">À propos</a>']
-    if archived:
-        nav.append('<a href="/archives/">Archives</a>')
     if site.get("web3forms_key") or site.get("linkedin"):
         nav.append('<a href="/contact/">Contact</a>')
     return f"""<!doctype html>
@@ -38,7 +36,7 @@ def page(title, body, desc=None, cls=""):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body class="{cls}">
@@ -73,7 +71,7 @@ def grid(items):
 
 
 def tag_nav(active=None):
-    links = [f'<a href="/"{" class=active" if active is None else ""}>Tout</a>']
+    links = [f'<a href="/"{" class=active" if active is None else ""}>all</a>']
     for key, label in live_tags.items():
         cls = " class=active" if key == active else ""
         links.append(f'<a href="/tag/{key}/"{cls}>{escape(label)}</a>')
@@ -189,7 +187,7 @@ def main():
   <p><a href="/">Retour à l'accueil</a></p>
 </div>"""))
 
-    urls = [""] + [p["slug"] + "/" for p in projects] + ["about-me/"]
+    urls = [""] + [p["slug"] + "/" for p in current] + ["about-me/"]
     (OUT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>https://{DOMAIN}/{u}</loc></url>\n" for u in urls) + "</urlset>\n")

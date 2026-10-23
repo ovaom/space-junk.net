@@ -13,7 +13,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font: 300 16px/1.75 Roboto, system-ui, sans-serif;
+  font: 400 16px/1.75 Roboto, system-ui, sans-serif;
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--heading); }
@@ -83,7 +83,7 @@ h1, h2 { color: var(--heading); font-weight: 400; margin: 0; }
 .lightbox img { max-width: calc(100vw - 32px); max-height: calc(100vh - 32px); object-fit: contain; }
 .lightbox button {
   position: absolute; background: none; border: 0; color: #fff; cursor: pointer;
-  font: 300 36px/1 Roboto, sans-serif; padding: 16px; opacity: .7;
+  font: 400 36px/1 Roboto, sans-serif; padding: 16px; opacity: .7;
 }
 .lightbox button:hover { opacity: 1; }
 .lightbox .close { top: 8px; right: 8px; }
