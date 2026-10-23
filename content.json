@@ -2,8 +2,9 @@
   "site": {
     "title": "space-junk",
     "author": "Muriel Colagrande",
-    "email": "",
-    "description": "Portfolio de Muriel Colagrande : design d'interaction, objets interactifs, musique."
+    "description": "Portfolio de Muriel Colagrande : design d'interaction, objets interactifs, musique.",
+    "web3forms_key": "",
+    "linkedin": ""
   },
   "tags": {
     "branding": "branding",

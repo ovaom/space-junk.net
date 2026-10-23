@@ -26,8 +26,8 @@ def page(title, body, desc=None, cls=""):
     nav = ['<a href="/about-me/">À propos</a>']
     if archived:
         nav.append('<a href="/archives/">Archives</a>')
-    if site.get("email"):
-        nav.append(f'<a href="mailto:{escape(site["email"])}">Contact</a>')
+    if site.get("web3forms_key") or site.get("linkedin"):
+        nav.append('<a href="/contact/">Contact</a>')
     return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -130,6 +130,27 @@ def project_page(p, siblings):
     return page(p["title"], body, desc, "is-project")
 
 
+def contact_body():
+    # Le formulaire passe par Web3Forms : l'adresse mail n'apparaît jamais dans la page.
+    parts = ['<div class="wrap prose"><h1 class="page-title">Contact</h1>']
+    if site.get("web3forms_key"):
+        parts.append(f"""<form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="{escape(site['web3forms_key'])}">
+  <input type="hidden" name="subject" value="Message depuis space-junk.net">
+  <input type="hidden" name="from_name" value="space-junk.net">
+  <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off">
+  <label>Nom<input type="text" name="name" required autocomplete="name"></label>
+  <label>Email<input type="email" name="email" required autocomplete="email"></label>
+  <label>Message<textarea name="message" rows="7" required></textarea></label>
+  <button type="submit">Envoyer</button>
+  <p class="form-status" role="status"></p>
+</form>""")
+    if site.get("linkedin"):
+        parts.append(f'<p class="linkedin">Ou sur <a href="{escape(site["linkedin"])}" target="_blank" rel="noopener">LinkedIn</a>.</p>')
+    parts.append("</div>")
+    return "".join(parts)
+
+
 def main():
     if OUT.exists():
         for f in OUT.iterdir():
@@ -159,6 +180,9 @@ def main():
   {f'<img class="portrait" src="/{about["photo"]}" alt="{escape(about["title"])}">' if about.get("photo") else ""}
   {about['html']}
 </article>"""))
+
+    if site.get("web3forms_key") or site.get("linkedin"):
+        write("contact", page("Contact", contact_body()))
 
     (OUT / "404.html").write_text(page("Page introuvable", """<div class="wrap prose">
   <h1 class="page-title">Page introuvable</h1>

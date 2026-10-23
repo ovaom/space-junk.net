@@ -24,3 +24,31 @@
     if (e.key === "ArrowRight") show(i + 1);
   });
 })();
+
+// Formulaire de contact : envoi sans quitter la page.
+(() => {
+  const form = document.querySelector(".contact-form");
+  if (!form) return;
+  const status = form.querySelector(".form-status");
+  const button = form.querySelector("button");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    button.disabled = true;
+    status.textContent = "Envoi…";
+    try {
+      const res = await fetch(form.action, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: new FormData(form),
+      });
+      const json = await res.json();
+      if (!json.success) throw new Error(json.message);
+      form.reset();
+      status.textContent = "Merci, votre message a bien été envoyé.";
+    } catch {
+      status.textContent = "L'envoi a échoué. Réessayez dans un instant.";
+    } finally {
+      button.disabled = false;
+    }
+  });
+})();

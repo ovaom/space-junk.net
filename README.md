@@ -47,3 +47,11 @@ Portfolio de Muriel Colagrande, en HTML statique, publié sur GitHub Pages.
 Options d'un projet : `"archived": true` le range dans la page Archives,
 `"hidden": true` le retire du site sans le supprimer.
 L'ordre des projets dans `content.json` est l'ordre d'affichage.
+
+## Contact
+
+Dans `content.json`, rubrique `site` :
+- `web3forms_key` : clé gratuite obtenue sur https://web3forms.com (les messages arrivent dans ta boîte mail, l'adresse n'apparaît pas sur le site)
+- `linkedin` : adresse de ton profil LinkedIn
+
+La page Contact n'apparaît que si l'un des deux est rempli.
